@@ -1,0 +1,54 @@
+.bg_image {
+  text-align: center;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  height: 900px;
+  padding: 20px;
+
+  .text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFF;
+  }
+
+  .title {
+    margin-bottom: 5px;
+  }
+
+  .tag {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 100px;
+  }
+
+  .twitterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin-bottom: 10px;
+    a {
+      text-decoration: none;
+      color: #FFF;
+      margin-left: 5px;
+    }
+  }
+
+  .uniswapLink {
+    background-color: #FF009D;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
