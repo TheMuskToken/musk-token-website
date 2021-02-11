@@ -13,7 +13,7 @@ function App() {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           width: "100%",
-          height: "900px"
+          height: "950px"
         }}>
         <div className={styles.contentContainer}>
           <div className={styles.title}>
@@ -32,6 +32,7 @@ function App() {
           </a>
           <div className={styles.text}>Community driven MEME + NFT + DeFi Ecosystem</div>
           <a href="https://info.uniswap.org/token/0x32ba720a38dcd3a9d4c04aa398f4d7e65a7547f5" target="_blank" className={styles.uniswapLink}>View Pair on Uniswap</a>
+          <div className={styles.footerEmail}>muskmemetoken@gmail.com</div>
         </div>
     </div>
   );
